@@ -9,7 +9,7 @@ const url = 'mongodb+srv://admin:admin>@cluster0-vbdhc.mongodb.net/test?retryWri
 const dbName = 'Tasks';
 
 function connect(callback){
-    MongoClient.connect("mongodb+srv://admin:admin@cluster0-vbdhc.mongodb.net/test?retryWrites=true", { 
+    MongoClient.connect("mongodb+srv://admin:admin@sample-s9a1y.mongodb.net/test?retryWrites=true/dbName", { 
         
     useNewUrlParser: true },function(err, client) {
       assert.equal(null, err);
